@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+struct Constants {
+    struct Config {
+        static let SERVER_URL = Bundle.main.infoDictionary!["SERVER_URL"] as? String ?? ""
+    }
+}

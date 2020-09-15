@@ -30,6 +30,7 @@ class WelcomeController: UIViewController, WelcomeView {
         
         title = viewModel.title
         view.backgroundColor = .secondary
-        Logger.debug(viewModel.title)
+        Logger.error(viewModel.title)
+        Logger.info(Constants.Config.SERVER_URL)
     }
 }
